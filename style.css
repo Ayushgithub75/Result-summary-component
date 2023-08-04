@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    width: 100%;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.main{
+    display: flex;
+    margin: auto;
+    width: 68%;
+    padding: 15%;
+    text-align: center;  
+}
+
+.Result{
+    border: 3px solid #4433f1;
+    width:300px;
+    height: 300px;
+    background-color: #4433f1;
+    border-radius: 15px;
+    gap: 30px;
+    margin-right: 10px;
+}
+
+.Result p{
+    color: #bfbeff;
+    margin-top: 10px;
+    font-size: small;
+}
+
+.Result h2{
+    margin-top: 20px;
+    font-size: xx-large;
+    color:#fdfcff ;
+}
+
+.Circle{
+    background-color:#4925cf;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 8%;
+    margin-left: 33%;
+}
+
+.Circle p{
+    font-size:x-small;
+    margin-top: 5px;
+}
+
+.summary{
+    border: 3px solid #fdfcff;
+    width:300px;
+    height: 300px;
+    border-radius: 15px;
+    gap: 30px;
+    margin-left: -10px;
+}
+
+.Reaction,
+.memory,
+.verbal,
+.visual{
+    display: flex;
+    gap: 60px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 26px;
+    width: 225px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.Reaction{
+    border: 3px solid #fff6f5;
+    background-color: #fff6f5;
+}
+
+.memory{
+    border: 3px solid #fffbf2;
+    background-color: #fffbf2;
+}
+
+.verbal{
+    border: 3px solid #f2fafa;
+    background-color: #f2fafa;
+}
+
+.visual{
+    border: 3px solid #f3f3fd;
+    background-color: #f3f3fd;
+}
+
+
+
+.Reactioncolor{
+    color: #cf7e80;
+}
+
+.memorycolor{
+    color: #f6d49b;
+}
+
+.verbalcolor{
+    color: #4ea993;
+}
+
+.visualcolor{
+    color: #323996;
+}
+
+.totalmarks{
+    color: #9698a5;
+}
+
+.first{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+
+.memory p{
+    margin-left: 2px;
+}
+
+.verbal p{
+    margin-left: 14px;
+}
+
+.visual p{
+    margin-left: 17px;
+}
+
+
+.Reaction img,
+.memory img,
+.verbal img,
+.visual img{
+    height: 13px;
+}
+
+button{
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 5px;
+    width: 220px;
+    border: 1px solid #303b59;
+    border-radius: 15px;
+    background-color: #303b59;
+    color: #eef6f8;
+    
+}
+
+@media screen and (max-device-width:1425px) {
+    .main{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center; 
+    }
+}
+
+@media screen and (max-device-width:900px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
